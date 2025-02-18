@@ -1,0 +1,16 @@
+{
+  "name": "waitlist-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/style.css --watch",
+    "start": "npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": { 
+    "tailwindcss": "^3.4.15"
+  }
+}
