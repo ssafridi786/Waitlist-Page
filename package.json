@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./public/style.css --watch",
-    "start": "npm run dev"
+    "build": "tailwindcss -i ./src/input.css -o ./public/style.css",
+    "dev": "tailwindcss -i ./src/input.css -o ./public/style.css --watch",
+    "start": "npx serve public"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": { 
+  "devDependencies": {
     "tailwindcss": "^3.4.15"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
   }
 }
